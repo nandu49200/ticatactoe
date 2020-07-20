@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+*{
+    background-color:whitesmoke;
+    margin:0;
+    padding:0;
+    color:#464647;
+    font-family:Asap, sans-serif;
+    font-weight: bold;
+}
+.a1{  background-color: #222222;
+    font-family: cursive;
+    color:gainsboro;
+    text-align: center;
+    padding:8px;
+    margin: -2 0 0 0px;
+   font-size:60px;
+    
+}
+
+#a>img{
+    width:100px;
+    height: 90px;
+    margin-top:10px;
+
+    margin-left:50px;
+    margin-bottom:-10px;
+    padding-bottom: 0;
+    border:1px solid none;
+    border-radius: 50%;
+}
+.start{margin-bottom:10px;
+    padding: 20px;
+    font-size:40px;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+    color:#24272E;
+}
+.hello{
+  background-image: url('https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiUmezj0IznAhVHSX0KHQg-CKQQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Ftic-tac-toe&psig=AOvVaw1Gppp_1_6s297qeD9CKIRs&ust=1579419089284477');
+  background-size: auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+  }
+  table {border-spacing:none;
+    margin: 5px auto;
+    text-align:center;
+    font-weight: bold;
+    font-size:70px;
+    color:black;
+   
+  }
+
+  .vert {
+    transition:all 0.3s ease;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+  .vert:hover{
+    background:greenyellow;
+
+    cursor:pointer;
+  }
+  .hori {transition:all 0.3s ease;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+  .hori:hover{
+    background:greenyellow;
+
+    cursor:pointer;
+  }
+           .players{
+               position: relative;
+               
+           }
+#user1{position:absolute;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: justify;
+    font-size:40px;
+    left:200px;
+    margin-bottom: 3px;
+    padding-bottom:15px;
+    padding-left:3px;
+    padding-right:3px;
+
+}
+#user1>img{
+    width:80px;
+    width:60px;
+    height:40px;
+
+}
+#user2{position: absolute;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: justify;
+    font-size:40px;
+    right:300px;
+    margin-bottom: 3px;
+    padding-bottom: 15px;
+    padding-left:3px;
+    padding-right:3px;
+
+}
+#user2>img{
+    width:60px;
+    height:40px;
+
+}
+footer{
+  background-color: dimgrey;
+  color: aliceblue;
+}
+.result{ background-color: dimgrey;
+    color: aliceblue;
+    margin-top:100px;
+    margin-bottom:-40px;
+    font-family: cursive;
+    padding:55;
+
+    text-align:center;
+    font-size:40px;
+}
+#r00{
+    transition:all 0.3s ease;
+}
+#r00:hover{
+    background:greenyellow;
+
+    cursor:pointer;
+  }
+  #r02{
+    transition:all 0.3s ease;
+}
+#r02:hover{
+    background:greenyellow;
+
+    cursor:pointer;
+  }
+  #r20{
+    transition:all 0.3s ease;
+}
+#r20:hover{
+    background:greenyellow;
+
+    cursor:pointer;
+  }
+  #r22{
+    transition:all 0.3s ease;
+}
+#r22:hover{
+    background:greenyellow;
+
+    cursor:pointer;
+  }
